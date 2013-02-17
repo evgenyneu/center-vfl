@@ -8,22 +8,43 @@
 
 #import "CenteringWithVFLViewController.h"
 
-@interface CenteringWithVFLViewController ()
-
-@end
-
 @implementation CenteringWithVFLViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UILabel *label = [self createLabel];
+    [self.view addSubview:label];
+    [self createLabelConstrants:label];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UILabel*)createLabel {
+    UILabel* label = [[UILabel alloc] init];
+    [label setTranslatesAutoresizingMaskIntoConstraints:NO];
+    label.text = @"I am centered!";
+    label.backgroundColor = [UIColor yellowColor];
+    return label;
+}
+
+- (void)createLabelConstrants:(UILabel*)label {
+    UIView *superview = self.view;
+    NSDictionary *variables = NSDictionaryOfVariableBindings(label, superview);
+    NSArray *constraints =
+    [NSLayoutConstraint constraintsWithVisualFormat:@"V:[superview]-(<=1)-[label]"
+                                            options: NSLayoutFormatAlignAllCenterX
+                                            metrics:nil
+                                              views:variables];
+    [self.view addConstraints:constraints];
+    
+    constraints =
+    [NSLayoutConstraint constraintsWithVisualFormat:@"H:[superview]-(<=1)-[label]"
+                                            options: NSLayoutFormatAlignAllCenterY
+                                            metrics:nil
+                                              views:variables];
+    [self.view addConstraints:constraints];
 }
 
 @end
+
+
