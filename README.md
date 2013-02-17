@@ -1,6 +1,6 @@
 # Centering a view in a super view with visual format language
 
-This is an example of centeing a label in its view usig the [Visual Format Language](http://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AutolayoutPG/Articles/formatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1).
+This is an example of centeing a label in its view using [Visual Format Language](http://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AutolayoutPG/Articles/formatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1).
 
 Here is the code from [view controller](https://github.com/evgenyneu/center-vfl/blob/master/CenteringWithVFL/CenteringWithVFLViewController.m) that does the trick:
 
