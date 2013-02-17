@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBA1D8C16D07DFB00962650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8B16D07DFB00962650 /* UIKit.framework */; };
+		2BBA1D8E16D07DFB00962650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8D16D07DFB00962650 /* Foundation.framework */; };
+		2BBA1D9016D07DFB00962650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */; };
+		2BBA1D9616D07DFB00962650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9416D07DFB00962650 /* InfoPlist.strings */; };
+		2BBA1D9816D07DFB00962650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9716D07DFB00962650 /* main.m */; };
+		2BBA1D9C16D07DFB00962650 /* CenteringWithVFLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */; };
+		2BBA1D9E16D07DFB00962650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9D16D07DFB00962650 /* Default.png */; };
+		2BBA1DA016D07DFB00962650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9F16D07DFB00962650 /* Default@2x.png */; };
+		2BBA1DA216D07DFB00962650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */; };
+		2BBA1DA516D07DFB00962650 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */; };
+		2BBA1DA816D07DFB00962650 /* CenteringWithVFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BBA1D8816D07DFB00962650 /* CenteringWithVFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteringWithVFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA1D8B16D07DFB00962650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BBA1D8D16D07DFB00962650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BBA1D9316D07DFB00962650 /* CenteringWithVFL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CenteringWithVFL-Info.plist"; sourceTree = "<group>"; };
+		2BBA1D9516D07DFB00962650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BBA1D9716D07DFB00962650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBA1D9916D07DFB00962650 /* CenteringWithVFL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CenteringWithVFL-Prefix.pch"; sourceTree = "<group>"; };
+		2BBA1D9A16D07DFB00962650 /* CenteringWithVFLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenteringWithVFLAppDelegate.h; sourceTree = "<group>"; };
+		2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteringWithVFLAppDelegate.m; sourceTree = "<group>"; };
+		2BBA1D9D16D07DFB00962650 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2BBA1D9F16D07DFB00962650 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2BBA1DA416D07DFB00962650 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2BBA1DA616D07DFB00962650 /* CenteringWithVFLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenteringWithVFLViewController.h; sourceTree = "<group>"; };
+		2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteringWithVFLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBA1D8516D07DFB00962650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA1D8C16D07DFB00962650 /* UIKit.framework in Frameworks */,
+				2BBA1D8E16D07DFB00962650 /* Foundation.framework in Frameworks */,
+				2BBA1D9016D07DFB00962650 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBA1D7F16D07DFB00962650 = {
+			isa = PBXGroup;
+			children = (
+				2BBA1D9116D07DFB00962650 /* CenteringWithVFL */,
+				2BBA1D8A16D07DFB00962650 /* Frameworks */,
+				2BBA1D8916D07DFB00962650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBA1D8916D07DFB00962650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA1D8816D07DFB00962650 /* CenteringWithVFL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBA1D8A16D07DFB00962650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA1D8B16D07DFB00962650 /* UIKit.framework */,
+				2BBA1D8D16D07DFB00962650 /* Foundation.framework */,
+				2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BBA1D9116D07DFB00962650 /* CenteringWithVFL */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA1D9A16D07DFB00962650 /* CenteringWithVFLAppDelegate.h */,
+				2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */,
+				2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */,
+				2BBA1DA616D07DFB00962650 /* CenteringWithVFLViewController.h */,
+				2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */,
+				2BBA1D9216D07DFB00962650 /* Supporting Files */,
+			);
+			path = CenteringWithVFL;
+			sourceTree = "<group>";
+		};
+		2BBA1D9216D07DFB00962650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA1D9316D07DFB00962650 /* CenteringWithVFL-Info.plist */,
+				2BBA1D9416D07DFB00962650 /* InfoPlist.strings */,
+				2BBA1D9716D07DFB00962650 /* main.m */,
+				2BBA1D9916D07DFB00962650 /* CenteringWithVFL-Prefix.pch */,
+				2BBA1D9D16D07DFB00962650 /* Default.png */,
+				2BBA1D9F16D07DFB00962650 /* Default@2x.png */,
+				2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBA1D8716D07DFB00962650 /* CenteringWithVFL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA1DAB16D07DFB00962650 /* Build configuration list for PBXNativeTarget "CenteringWithVFL" */;
+			buildPhases = (
+				2BBA1D8416D07DFB00962650 /* Sources */,
+				2BBA1D8516D07DFB00962650 /* Frameworks */,
+				2BBA1D8616D07DFB00962650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenteringWithVFL;
+			productName = CenteringWithVFL;
+			productReference = 2BBA1D8816D07DFB00962650 /* CenteringWithVFL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBA1D8016D07DFB00962650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CenteringWithVFL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Evgenii Neumerzhitckii";
+			};
+			buildConfigurationList = 2BBA1D8316D07DFB00962650 /* Build configuration list for PBXProject "CenteringWithVFL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BBA1D7F16D07DFB00962650;
+			productRefGroup = 2BBA1D8916D07DFB00962650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBA1D8716D07DFB00962650 /* CenteringWithVFL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBA1D8616D07DFB00962650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA1D9616D07DFB00962650 /* InfoPlist.strings in Resources */,
+				2BBA1D9E16D07DFB00962650 /* Default.png in Resources */,
+				2BBA1DA016D07DFB00962650 /* Default@2x.png in Resources */,
+				2BBA1DA216D07DFB00962650 /* Default-568h@2x.png in Resources */,
+				2BBA1DA516D07DFB00962650 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBA1D8416D07DFB00962650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA1D9816D07DFB00962650 /* main.m in Sources */,
+				2BBA1D9C16D07DFB00962650 /* CenteringWithVFLAppDelegate.m in Sources */,
+				2BBA1DA816D07DFB00962650 /* CenteringWithVFLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BBA1D9416D07DFB00962650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA1D9516D07DFB00962650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA1DA416D07DFB00962650 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBA1DA916D07DFB00962650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BBA1DAA16D07DFB00962650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BBA1DAC16D07DFB00962650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CenteringWithVFL/CenteringWithVFL-Prefix.pch";
+				INFOPLIST_FILE = "CenteringWithVFL/CenteringWithVFL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BBA1DAD16D07DFB00962650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CenteringWithVFL/CenteringWithVFL-Prefix.pch";
+				INFOPLIST_FILE = "CenteringWithVFL/CenteringWithVFL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBA1D8316D07DFB00962650 /* Build configuration list for PBXProject "CenteringWithVFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA1DA916D07DFB00962650 /* Debug */,
+				2BBA1DAA16D07DFB00962650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA1DAB16D07DFB00962650 /* Build configuration list for PBXNativeTarget "CenteringWithVFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA1DAC16D07DFB00962650 /* Debug */,
+				2BBA1DAD16D07DFB00962650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBA1D8016D07DFB00962650 /* Project object */;
+}
