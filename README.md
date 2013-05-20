@@ -1,4 +1,4 @@
-# Centering a view in a super view with visual format language
+# Centering a view in a super view with visual format language using Auto Layout in iOS 6
 
 This is an example of centeing a label in its view using [Visual Format Language](http://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AutolayoutPG/Articles/formatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1).
 
