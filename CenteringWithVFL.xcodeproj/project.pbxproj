@@ -261,6 +261,7 @@
 		2BBA1DAC16D07DFB00962650 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CenteringWithVFL/CenteringWithVFL-Prefix.pch";
 				INFOPLIST_FILE = "CenteringWithVFL/CenteringWithVFL-Info.plist";
@@ -272,6 +273,7 @@
 		2BBA1DAD16D07DFB00962650 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CenteringWithVFL/CenteringWithVFL-Prefix.pch";
 				INFOPLIST_FILE = "CenteringWithVFL/CenteringWithVFL-Info.plist";
@@ -299,6 +301,7 @@
 				2BBA1DAD16D07DFB00962650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
