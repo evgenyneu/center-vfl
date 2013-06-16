@@ -23,4 +23,4 @@ constraints =
 ```
     
 
-<img src='https://raw.github.com/evgenyneu/center-vfl/master/centering_with_vfl.png' width='434' alt='Centering in superview with VFL'>
+<img src='https://raw.github.com/evgenyneu/center-vfl/master/centering_with_vfl.png' width='568' alt='Centering in superview with VFL'>
