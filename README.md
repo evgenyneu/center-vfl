@@ -31,7 +31,4 @@ constraints =
 We use two visual format strings:
 
 1. `@"V:[superview]-(<=1)-[label]"` with `NSLayoutFormatAlignAllCenterX` option
-
-and
-
 1. `@"H:[superview]-(<=1)-[label]"` with `NSLayoutFormatAlignAllCenterY` option
