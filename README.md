@@ -24,3 +24,14 @@ constraints =
     
 
 <img src='https://raw.github.com/evgenyneu/center-vfl/master/centering_with_vfl.png' width='568' alt='Centering in superview with VFL'>
+
+
+## How it works
+
+We use two visual format strings:
+
+1. `@"V:[superview]-(<=1)-[label]"` with `NSLayoutFormatAlignAllCenterX` option
+
+and
+
+1. `@"H:[superview]-(<=1)-[label]"` with `NSLayoutFormatAlignAllCenterY` option
