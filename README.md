@@ -37,4 +37,4 @@ It aligns X and Y ceteres of the label and its superview. The `(<=1)` inequality
 
 ## Feedback welcome
 
-If you use better/different technique or need help please feel free to create a pull request, or comment on [this stackoverflow answer](http://stackoverflow.com/a/14917695/297131).
+If you need help or want to improve this technique feel free to create a pull request, or comment on [this stackoverflow answer](http://stackoverflow.com/a/14917695/297131).
