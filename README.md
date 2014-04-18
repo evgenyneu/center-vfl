@@ -33,7 +33,7 @@ We use two visual format strings:
 1. `@"V:[superview]-(<=1)-[label]"` with `NSLayoutFormatAlignAllCenterX` option
 1. `@"H:[superview]-(<=1)-[label]"` with `NSLayoutFormatAlignAllCenterY` option
 
-It aligns X and Y centres of the label and its superview. The `(<=1)` inequality constraints are needed to allow those centering constraints do their job. If we had just `[superview][label]` it would stick the edges of the label and its superview together.
+It aligns X and Y centres of the label and its superview. The `(<=1)` inequality constraints are needed to allow those centering constraints do their job. If we had just `[superview][label]` it would **probably** stick the edges of the label and its superview together.
 
 ## Feedback welcome
 
