@@ -13,10 +13,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+
+    [self addLabel:self.view1];
+    [self addLabel:self.view2];
+}
+
+- (void)addLabel:(UIView*)view {
     UILabel *label = [self createLabel];
-    [self.view addSubview:label];
-    [self createLabelConstrants:label];
+    [view addSubview:label];
+    [self createLabelConstrants:label forSuperview:view];
 }
 
 - (UILabel*)createLabel {
@@ -27,22 +32,21 @@
     return label;
 }
 
-- (void)createLabelConstrants:(UILabel*)label {
-    UIView *superview = self.view;
+- (void)createLabelConstrants:(UILabel*)label forSuperview:(UIView*)superview {
     NSDictionary *variables = NSDictionaryOfVariableBindings(label, superview);
     NSArray *constraints =
     [NSLayoutConstraint constraintsWithVisualFormat:@"V:[superview]-(<=1)-[label]"
                                             options: NSLayoutFormatAlignAllCenterX
                                             metrics:nil
                                               views:variables];
-    [self.view addConstraints:constraints];
+    [superview addConstraints:constraints];
     
     constraints =
     [NSLayoutConstraint constraintsWithVisualFormat:@"H:[superview]-(<=1)-[label]"
                                             options: NSLayoutFormatAlignAllCenterY
                                             metrics:nil
                                               views:variables];
-    [self.view addConstraints:constraints];
+    [superview addConstraints:constraints];
 }
 
 @end
