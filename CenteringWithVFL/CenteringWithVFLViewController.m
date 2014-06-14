@@ -22,7 +22,7 @@
 - (UILabel*)createLabel {
     UILabel* label = [[UILabel alloc] init];
     [label setTranslatesAutoresizingMaskIntoConstraints:NO];
-    label.text = @"I am centered!";
+    label.text = @"I am centered! I am centered! I am centered! I am centered! I am centered!";
     label.backgroundColor = [UIColor yellowColor];
     return label;
 }
@@ -42,6 +42,15 @@
                                             options: NSLayoutFormatAlignAllCenterY
                                             metrics:nil
                                               views:variables];
+    [self.view addConstraints:constraints];
+
+    // Add horizontal margins to label view
+
+    constraints =
+    [NSLayoutConstraint constraintsWithVisualFormat:@"|-[label]-|"
+                                          options: 0
+                                          metrics:nil
+                                            views:variables];
     [self.view addConstraints:constraints];
 }
 
