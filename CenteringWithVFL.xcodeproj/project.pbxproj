@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B61945419E89A8D00BEC0D3 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */; };
 		2BBA1D8C16D07DFB00962650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8B16D07DFB00962650 /* UIKit.framework */; };
 		2BBA1D8E16D07DFB00962650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8D16D07DFB00962650 /* Foundation.framework */; };
 		2BBA1D9016D07DFB00962650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		2BBA1D8816D07DFB00962650 /* CenteringWithVFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteringWithVFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBA1D8B16D07DFB00962650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BBA1D8D16D07DFB00962650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 				2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */,
 				2BBA1DA616D07DFB00962650 /* CenteringWithVFLViewController.h */,
 				2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */,
+				2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */,
 				2BBA1D9216D07DFB00962650 /* Supporting Files */,
 			);
 			path = CenteringWithVFL;
@@ -164,6 +167,7 @@
 				2BBA1DA016D07DFB00962650 /* Default@2x.png in Resources */,
 				2BBA1DA216D07DFB00962650 /* Default-568h@2x.png in Resources */,
 				2BBA1DA516D07DFB00962650 /* MainStoryboard.storyboard in Resources */,
+				2B61945419E89A8D00BEC0D3 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
