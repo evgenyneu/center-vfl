@@ -14,8 +14,6 @@
 		2BBA1D8E16D07DFB00962650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8D16D07DFB00962650 /* Foundation.framework */; };
 		2BBA1D9016D07DFB00962650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */; };
 		2BBA1D9616D07DFB00962650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9416D07DFB00962650 /* InfoPlist.strings */; };
-		2BBA1D9816D07DFB00962650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9716D07DFB00962650 /* main.m */; };
-		2BBA1D9C16D07DFB00962650 /* CenteringWithVFLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */; };
 		2BBA1D9E16D07DFB00962650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9D16D07DFB00962650 /* Default.png */; };
 		2BBA1DA016D07DFB00962650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9F16D07DFB00962650 /* Default@2x.png */; };
 		2BBA1DA216D07DFB00962650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */; };
@@ -32,10 +30,6 @@
 		2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2BBA1D9316D07DFB00962650 /* CenteringWithVFL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CenteringWithVFL-Info.plist"; sourceTree = "<group>"; };
 		2BBA1D9516D07DFB00962650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2BBA1D9716D07DFB00962650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BBA1D9916D07DFB00962650 /* CenteringWithVFL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CenteringWithVFL-Prefix.pch"; sourceTree = "<group>"; };
-		2BBA1D9A16D07DFB00962650 /* CenteringWithVFLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenteringWithVFLAppDelegate.h; sourceTree = "<group>"; };
-		2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteringWithVFLAppDelegate.m; sourceTree = "<group>"; };
 		2BBA1D9D16D07DFB00962650 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2BBA1D9F16D07DFB00962650 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -87,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				2B61945719E89E5000BEC0D3 /* AppDelegate.swift */,
-				2BBA1D9A16D07DFB00962650 /* CenteringWithVFLAppDelegate.h */,
-				2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */,
 				2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */,
 				2B61945519E89B0800BEC0D3 /* ViewController.swift */,
 				2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */,
@@ -102,8 +94,6 @@
 			children = (
 				2BBA1D9316D07DFB00962650 /* CenteringWithVFL-Info.plist */,
 				2BBA1D9416D07DFB00962650 /* InfoPlist.strings */,
-				2BBA1D9716D07DFB00962650 /* main.m */,
-				2BBA1D9916D07DFB00962650 /* CenteringWithVFL-Prefix.pch */,
 				2BBA1D9D16D07DFB00962650 /* Default.png */,
 				2BBA1D9F16D07DFB00962650 /* Default@2x.png */,
 				2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */,
@@ -180,8 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B61945819E89E5000BEC0D3 /* AppDelegate.swift in Sources */,
-				2BBA1D9816D07DFB00962650 /* main.m in Sources */,
-				2BBA1D9C16D07DFB00962650 /* CenteringWithVFLAppDelegate.m in Sources */,
 				2B61945619E89B0800BEC0D3 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
