@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B61945419E89A8D00BEC0D3 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */; };
 		2B61945619E89B0800BEC0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61945519E89B0800BEC0D3 /* ViewController.swift */; };
+		2B61945819E89E5000BEC0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61945719E89E5000BEC0D3 /* AppDelegate.swift */; };
 		2BBA1D8C16D07DFB00962650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8B16D07DFB00962650 /* UIKit.framework */; };
 		2BBA1D8E16D07DFB00962650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8D16D07DFB00962650 /* Foundation.framework */; };
 		2BBA1D9016D07DFB00962650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		2B61945519E89B0800BEC0D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B61945719E89E5000BEC0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BBA1D8816D07DFB00962650 /* CenteringWithVFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteringWithVFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBA1D8B16D07DFB00962650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BBA1D8D16D07DFB00962650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 		2BBA1D9116D07DFB00962650 /* CenteringWithVFL */ = {
 			isa = PBXGroup;
 			children = (
+				2B61945719E89E5000BEC0D3 /* AppDelegate.swift */,
 				2BBA1D9A16D07DFB00962650 /* CenteringWithVFLAppDelegate.h */,
 				2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */,
 				2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */,
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B61945819E89E5000BEC0D3 /* AppDelegate.swift in Sources */,
 				2BBA1D9816D07DFB00962650 /* main.m in Sources */,
 				2BBA1D9C16D07DFB00962650 /* CenteringWithVFLAppDelegate.m in Sources */,
 				2B61945619E89B0800BEC0D3 /* ViewController.swift in Sources */,
