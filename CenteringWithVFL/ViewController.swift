@@ -27,25 +27,22 @@ class ViewController: UIViewController {
   }
 
   func createLabelConstrants(label: UILabel) {
-    // Center horizontally
-    // ------------------
-    let views = ["superview":view, "label":label]
 
+    // Center horizontally
     var constraints = NSLayoutConstraint.constraintsWithVisualFormat(
       "V:[superview]-(<=1)-[label]",
       options: NSLayoutFormatOptions.AlignAllCenterX,
       metrics: nil,
-      views: views)
+      views: ["superview":view, "label":label])
 
     view.addConstraints(constraints)
 
     // Center vertically
-    // ------------------
     constraints = NSLayoutConstraint.constraintsWithVisualFormat(
       "H:[superview]-(<=1)-[label]",
       options: NSLayoutFormatOptions.AlignAllCenterY,
       metrics: nil,
-      views: views)
+      views: ["superview":view, "label":label])
 
     view.addConstraints(constraints)
   }
