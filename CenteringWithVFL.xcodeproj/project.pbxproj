@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B61945419E89A8D00BEC0D3 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */; };
+		2B61945619E89B0800BEC0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61945519E89B0800BEC0D3 /* ViewController.swift */; };
 		2BBA1D8C16D07DFB00962650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8B16D07DFB00962650 /* UIKit.framework */; };
 		2BBA1D8E16D07DFB00962650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8D16D07DFB00962650 /* Foundation.framework */; };
 		2BBA1D9016D07DFB00962650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA1D8F16D07DFB00962650 /* CoreGraphics.framework */; };
@@ -18,11 +19,11 @@
 		2BBA1DA016D07DFB00962650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1D9F16D07DFB00962650 /* Default@2x.png */; };
 		2BBA1DA216D07DFB00962650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */; };
 		2BBA1DA516D07DFB00962650 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */; };
-		2BBA1DA816D07DFB00962650 /* CenteringWithVFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		2B61945519E89B0800BEC0D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BBA1D8816D07DFB00962650 /* CenteringWithVFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteringWithVFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBA1D8B16D07DFB00962650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BBA1D8D16D07DFB00962650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +38,6 @@
 		2BBA1D9F16D07DFB00962650 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2BBA1DA116D07DFB00962650 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2BBA1DA416D07DFB00962650 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2BBA1DA616D07DFB00962650 /* CenteringWithVFLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenteringWithVFLViewController.h; sourceTree = "<group>"; };
-		2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteringWithVFLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +87,7 @@
 				2BBA1D9A16D07DFB00962650 /* CenteringWithVFLAppDelegate.h */,
 				2BBA1D9B16D07DFB00962650 /* CenteringWithVFLAppDelegate.m */,
 				2BBA1DA316D07DFB00962650 /* MainStoryboard.storyboard */,
-				2BBA1DA616D07DFB00962650 /* CenteringWithVFLViewController.h */,
-				2BBA1DA716D07DFB00962650 /* CenteringWithVFLViewController.m */,
+				2B61945519E89B0800BEC0D3 /* ViewController.swift */,
 				2B61945319E89A8D00BEC0D3 /* Launch Screen.xib */,
 				2BBA1D9216D07DFB00962650 /* Supporting Files */,
 			);
@@ -180,7 +178,7 @@
 			files = (
 				2BBA1D9816D07DFB00962650 /* main.m in Sources */,
 				2BBA1D9C16D07DFB00962650 /* CenteringWithVFLAppDelegate.m in Sources */,
-				2BBA1DA816D07DFB00962650 /* CenteringWithVFLViewController.m in Sources */,
+				2B61945619E89B0800BEC0D3 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +267,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CenteringWithVFL/CenteringWithVFL-Prefix.pch";
 				INFOPLIST_FILE = "CenteringWithVFL/CenteringWithVFL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,6 +282,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CenteringWithVFL/CenteringWithVFL-Prefix.pch";
 				INFOPLIST_FILE = "CenteringWithVFL/CenteringWithVFL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
