@@ -1,6 +1,6 @@
 # Centering a view in a super view with visual format language using Auto Layout in iOS/Swift
 
-This is an example of centeing a label in its view using [Visual Format Language](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html).
+This is an example of centeing a label in its view using [Visual Format Language](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html). Tested in iOS 7 and 8.
 
 Here is the code from [view controller](https://github.com/evgenyneu/center-vfl/blob/master/CenteringWithVFL/ViewController.swift) that does the trick:
 
