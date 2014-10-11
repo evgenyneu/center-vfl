@@ -12,7 +12,7 @@ var constraints = NSLayoutConstraint.constraintsWithVisualFormat(
   metrics: nil,
   views: ["superview":view, "label":label])
 
-  view.addConstraints(constraints)
+view.addConstraints(constraints)
 
  // Center vertically
 constraints = NSLayoutConstraint.constraintsWithVisualFormat(
@@ -29,6 +29,8 @@ view.addConstraints(constraints)
 
 
 ## How it works
+
+This code is something like special theory of relativity. I can not say I completely but it seems to work.
 
 We use two visual format strings:
 
