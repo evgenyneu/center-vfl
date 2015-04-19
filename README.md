@@ -39,6 +39,6 @@ We use two visual format strings:
 
 It aligns X and Y centres of the label and its superview. The `(<=1)` inequality constraints are needed to allow those centering constraints do their job. If we had just `[superview][label]` it would **probably** stick the edges of the label and its superview together.
 
-## Feedback welcome
+## Feedback is welcome
 
 If you need help or want to improve this technique feel free to create a pull request, or comment on [this stackoverflow answer](http://stackoverflow.com/a/14917695/297131).
