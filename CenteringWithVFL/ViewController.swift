@@ -1,15 +1,6 @@
-//
-//  ViewController.swift
-//  CenteringWithVFL
-//
-//  Created by Evgenii Neumerzhitckii on 11/10/2014.
-//  Copyright (c) 2014 Evgenii Neumerzhitckii. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -20,14 +11,13 @@ class ViewController: UIViewController {
 
   private func createLabel() -> UILabel {
     let label = UILabel()
-    label.setTranslatesAutoresizingMaskIntoConstraints(false)
+    label.translatesAutoresizingMaskIntoConstraints = false
     label.text = "I am centered!"
     label.backgroundColor = UIColor.yellowColor()    
     return label
   }
 
   func createLabelConstrants(label: UILabel) {
-
     // Center horizontally
     var constraints = NSLayoutConstraint.constraintsWithVisualFormat(
       "V:[superview]-(<=1)-[label]",
