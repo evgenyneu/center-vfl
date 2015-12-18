@@ -5,7 +5,7 @@ This is an example of centeing a label in its view using [Visual Format Language
 Here is the code from [view controller](https://github.com/evgenyneu/center-vfl/blob/master/CenteringWithVFL/ViewController.swift) that does the trick:
 
 ```Swift
-// Center horizontally
+// Center vertically
 var constraints = NSLayoutConstraint.constraintsWithVisualFormat(
   "V:[superview]-(<=1)-[label]",
   options: NSLayoutFormatOptions.AlignAllCenterX,
@@ -14,7 +14,7 @@ var constraints = NSLayoutConstraint.constraintsWithVisualFormat(
 
 view.addConstraints(constraints)
 
- // Center vertically
+// Center horizontally
 constraints = NSLayoutConstraint.constraintsWithVisualFormat(
   "H:[superview]-(<=1)-[label]",
   options: NSLayoutFormatOptions.AlignAllCenterY,
