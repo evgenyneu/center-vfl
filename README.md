@@ -30,7 +30,7 @@ view.addConstraints(constraints)
 
 ## How it works
 
-This code is something like special theory of relativity. I can not say I completely understand it. But it seems to work.
+This code is something like theory of special relativity. I can not say I completely understand it. But it seems to work.
 
 We use two visual format strings:
 
